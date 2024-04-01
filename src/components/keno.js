@@ -25,14 +25,15 @@ const endGame =()=>{
     setStartGame(false) 
     setRandomNumbers([]);
     // setMatchingNumbers([]);    
-    timeoutIds.forEach(timeoutId => clearTimeout(timeoutId));
-    setTimeoutIds([]);
+    
+    
 }
 
 
   
   const newGame = () => {
-
+    setTimeoutIds([]);
+    timeoutIds.forEach(timeoutId => clearTimeout(timeoutId));
     let numbersArray = []; 
     let newTimeoutIds  = []
     for (let x = 0; x < 20; x++) {        
