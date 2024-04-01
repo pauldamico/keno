@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/keno/static/css/main.4e6fbc3a.css",
+    "main.js": "/keno/static/js/main.1bf3451c.js",
+    "static/js/453.aaa645b2.chunk.js": "/keno/static/js/453.aaa645b2.chunk.js",
+    "index.html": "/keno/index.html",
+    "main.4e6fbc3a.css.map": "/keno/static/css/main.4e6fbc3a.css.map",
+    "main.1bf3451c.js.map": "/keno/static/js/main.1bf3451c.js.map",
+    "453.aaa645b2.chunk.js.map": "/keno/static/js/453.aaa645b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e6fbc3a.css",
+    "static/js/main.1bf3451c.js"
+  ]
+}
