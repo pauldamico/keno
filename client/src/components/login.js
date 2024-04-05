@@ -13,13 +13,14 @@ const userChangeHandler = (e)=>{
 const loginSubmitHandler = (e)=>{
     e.preventDefault()
 loginDataHandler(userInfo.username, userInfo.password, userInfo.token)
+setUserInfo({username:"", password:"", token:""})
 }
 
 return(
     <div>
-        Login to play Keno
+        Log in to play Keno
         <form onSubmit={loginSubmitHandler}>
-            UserName<input name="username" value={userInfo.username} type="text" onChange={userChangeHandler}/>
+            Username<input name="username" value={userInfo.username} type="text" onChange={userChangeHandler}/>
             Password<input name="password" value={userInfo.password} type="text" onChange={userChangeHandler}/>
             <button>Login</button>
         </form>
